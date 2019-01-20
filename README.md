@@ -31,6 +31,6 @@ The key concepts to keep in mind is that the frequency at which fixes are acquir
 From this we can assume 1.95J per cold start and 0.75J per hot start fix as well as some RTC consumption for maintaining hot start capability. 
 
 ## System power consumption
-Overall system power consumption will depend on the platform configuration, but it is relatively easy to remain in the 5uA range at 3.5V for example with Murata ABZ lora module with STM32L0 inside. This will give consumption per day of 0.067J per day, which equals one lora transmission at SF7.
+Overall system power consumption will depend on the platform configuration, but it is relatively easy to remain in the 5uA range at 3.5V for example with Murata ABZ lora module with STM32L0 inside. This will give consumption per day of 0.067J per hour, which equals one lora transmission at SF7.
 
    
