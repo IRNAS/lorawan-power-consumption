@@ -34,3 +34,38 @@ From this we can assume 1.95J per cold start and 0.75J per hot start fix as well
 Overall system power consumption will depend on the platform configuration, but it is relatively easy to remain in the 5uA range at 3.5V for example with Murata ABZ lora module with STM32L0 inside. This will give consumption per day of 0.067J per hour, which equals one lora transmission at SF7.
 
    
+# Antenna performance measurement
+### Selection of antennas:
+Omni antenna 868MHz 2dB  by RAK:  
+
+![omni_antenna](omni_antenna.jpg)  
+
+PCB antenna:  
+
+![pcb_antenna](pcb_antenna.jpg)  
+
+Lacuna antenna:  
+
+![lacuna_antenna](lacuna_antenna.jpg)  
+
+Taoglas PC.81 antenna:  
+
+![taoglas_antenna](taoglas_antenna.jpg)  
+
+Antennova SR42I010-R:  
+
+![antennova_antenna](antennova_antenna.jpg)
+
+A test has been set-up to determine the signal level received by the LoraWAN gateway some 8km from the test site to determine the long-distance performance closely matching the one intended in most outdoor rural applications.
+
+Type of antenna | Received power [dBm]
+:---|---
+Omni antenna:|  	-104,16
+PCB antenna:  |	-97,12
+Lacuna antenna:|  	-97,09
+Taoglas PC.81 antenna:|  	-96,91
+antennova SR42Io10-R:|  	-97,56  
+
+## Comparisons between antenna types:  
+
+![comparisons)](comparisons.png)
